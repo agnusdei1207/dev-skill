@@ -64,7 +64,7 @@
 - 쓰지 않게 된 의존성은 같은 변경에서 제거한다. 벤더링·패치(`patches/`)는 이유와 업스트림 상태를 남긴다.
 - 설치 스크립트는 임의 코드를 실행할 수 있는 신뢰 경계다. 비밀·토큰을 패키지 설정·CI·레지스트리 인증에 노출하지 않고, 공개 배포물에 내부 레지스트리 경로가 새지 않게 한다.
 
-표준·규제 번호와 판은 식별자이므로 이 절의 현행 판 확인 규칙을 따른다(스택 버전 하드코딩 금지와 별개).
+표준·규제 번호와 판은 식별자이므로 [국제 표준 준용](#국제-표준-준용) 절의 현행 판 확인 규칙을 따른다(스택 버전 하드코딩 금지와 별개).
 
 버전 확인 출처는 버전을 적지 않고 링크만 둔다: Node.js `https://nodejs.org/en/about/previous-releases`, Python `https://www.python.org/downloads/`, Go `https://go.dev/dl/`, Rust `https://static.rust-lang.org/dist/channel-rust-stable.toml`, Ubuntu `https://ubuntu.com/about/release-cycle`, Docker/Compose 공식 릴리스 노트와 `docker version`·`docker compose version`. 다른 생태계도 같은 방식으로 공식 채널을 찾는다.
 
